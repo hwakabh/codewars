@@ -3,11 +3,7 @@ import sys
 
 def countBits(n):
     bits = bin(n).replace('0b','')
-    c = 0
-    for b in bits:
-        if b == '1':
-            c += 1
-    return c
+    return bits.count('1')
 
 
 if __name__ == '__main__':
