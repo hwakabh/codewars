@@ -6,7 +6,7 @@ def square_digits(num):
         num = str(num)
     ans = ''
     for n in num:
-        ans += str(int(n) * int(n))
+        ans += str(int(n) ** 2)
     return int(ans)
 
 
