@@ -2,8 +2,7 @@ import sys
 
 def get_middle(s):
     l = len(s)
-    r = int(l % 2)
-    if r == 1:
+    if int(l % 2) == 1:
         c = s[int(l / 2)]
     else:
         c = s[int(l / 2 - 1):int(l / 2 + 1)]
