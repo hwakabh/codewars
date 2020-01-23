@@ -1,2 +1,3 @@
 # codewars
-Codewars solutions and test codes
+
+Codewars solutions and test codes with Python
