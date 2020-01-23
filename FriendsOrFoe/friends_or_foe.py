@@ -2,11 +2,7 @@ import sys
 
 
 def friends(x):
-    f = []
-    for n in x:
-        if len(n) == 4:
-            f.append(n)
-    return f
+    return [f for f in x if len(f) == 4]
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
