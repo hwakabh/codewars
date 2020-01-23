@@ -21,4 +21,4 @@ class TestIsogram(unittest.TestCase):
                 self.assertEqual(is_isogram(string=input_value), expected)
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(verbosity=2)
