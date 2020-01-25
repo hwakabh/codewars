@@ -2,19 +2,14 @@ import sys
 
 
 def DNA_stand(dna):
-    ordered_dna = []
-    for c in dna:
-        if c == 'A':
-            ordered_dna.append('T')
-        elif c == 'T':
-            ordered_dna.append('A')
-        elif c == 'C':
-            ordered_dna.append('G')
-        elif c == 'G':
-            ordered_dna.append('C')
-        else:
-            pass
-    return ''.join(ordered_dna)
+    pairs = {
+        'A': 'T',
+        'T': 'A',
+        'C': 'G',
+        'G': 'C'
+    }
+
+    return ''.join([pairs[c] for c in dna])
 
 
 if __name__ == "__main__":
