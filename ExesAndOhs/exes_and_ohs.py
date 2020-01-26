@@ -2,7 +2,8 @@ import sys
 
 
 def xo(s):
-    return (s.count('x') + s.count('X')) == (s.count('o') + s.count('O'))
+    s = s.lower()
+    return s.count('x') == s.count('o')
 
 
 if __name__ == "__main__":
