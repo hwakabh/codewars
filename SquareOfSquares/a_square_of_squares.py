@@ -3,12 +3,7 @@ import math
 
 
 def is_square(n):
-    # Ignore negative value
-    if n < 0:
-        return False
-    # If positive value, get square root
-    r = int(math.sqrt(n))
-    if r ** 2 == n:
+    if (n >= 0) and (int(math.sqrt(n)) ** 2 == n):
         return True
     else:
         return False
