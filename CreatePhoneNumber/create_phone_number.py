@@ -2,8 +2,8 @@ import sys
 
 
 def create_phone_number(n):
-    # TODO: Refactor with for-loop
-    return '({0}{1}{2}) {3}{4}{5}-{6}{7}{8}{9}'.format(n[0], n[1], n[2], n[3], n[4], n[5], n[6], n[7], n[8], n[9])
+    s = ''.join([str(c) for c in n])
+    return '({0}) {1}-{2}'.format(s[:3], s[3:6], s[6:])
 
 
 if __name__ == "__main__":
