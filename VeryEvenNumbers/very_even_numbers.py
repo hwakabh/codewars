@@ -10,10 +10,7 @@ def is_very_even_number(n):
             n = sum_digit
         else:
             break
-    if sum_digit % 2 == 0:
-        return True
-    else:
-        return False
+    return (sum_digit % 2 == 0)
 
 
 if __name__ == "__main__":
