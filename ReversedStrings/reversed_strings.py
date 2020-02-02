@@ -2,7 +2,7 @@ import sys
 
 
 def solutions(string):
-    return ''.join(sorted(string, key=string.index, reverse=True))
+    return string[::-1]
 
 
 if __name__ == "__main__":
