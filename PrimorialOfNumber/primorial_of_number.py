@@ -17,7 +17,6 @@ def num_primorial(n):
             if is_prime:
                 pn.append(i)
 
-    # Calculate sums
     ans = 1
     for a in pn[:n]:
         ans *= a
