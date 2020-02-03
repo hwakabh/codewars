@@ -9,7 +9,7 @@ executors:
 jobs:
   run_test_code:
     executor: bash_python_executor
-    working_directory: ~/
+    working_directory: ~/codewars
     steps:
       - checkout
       - run:
