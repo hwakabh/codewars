@@ -3,7 +3,7 @@ version: 2.1
 executors:
   bash_python_executor:
     docker:
-      - image: circleci/python:3.4.3
+      - image: python:3.4.3
     shell: bash
 
 jobs:
