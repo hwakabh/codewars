@@ -1,5 +1,5 @@
 # Configuration file for Circle CI testings
-version: 2
+version: 2.1
 executors:
   bash_python_executor:
     docker:
@@ -19,7 +19,7 @@ jobs:
             python3 test_*.py
  
 workflows:
-  version: 2
+  version: 2.1
   workflows:
     jobs:
       - run_test_code
