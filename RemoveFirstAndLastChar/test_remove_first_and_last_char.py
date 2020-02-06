@@ -13,7 +13,7 @@ class TestRemoveFirstAndLastChar(TestCase):
             ('person', 'erso'),
             ('place', 'lac'),
             ('ok', ''),
-            ('bug', 'ug'),  #-> Wrong Case
+            # ('bug', 'ug'),  #-> Wrong Case
         ]
 
         for w, expected in test_patterns:
