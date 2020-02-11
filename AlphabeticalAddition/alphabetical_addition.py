@@ -8,11 +8,7 @@ def add_letters(letters):
     else:
         for c in letters:
             s += (ord(c) - 96)
-        if s > 26:
-            s = int(s % 26)
-            if s == 0:
-                return 'z'
-        return chr(s + 96)
+        return chr((s - 1) % 26 + 97)
 
 
 if __name__ == "__main__":
