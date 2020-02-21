@@ -12,6 +12,7 @@ class TestCountTheDivisorOfNumber(TestCase):
             (12, 6),
             (30, 8),
             (4096, 13),
+            # (4, 2), #-> Wrong case: expected 3 (1, 2,4)
         ]
         for d, exp in test_patterns:
             with self.subTest(d=d, exp=exp):
