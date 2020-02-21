@@ -15,7 +15,7 @@ jobs:
       - run:
           name: Checkout to latest directory and run test code
           command: |
-            cd $(git diff --name-only HEAD HEAD^1 |sed 's/\/.*$//g' |uniq)
+            cd $(dirname $(git diff --name-only HEAD HEAD^1 |head -n 1))
             pwd
             python3 test_*.py
  
