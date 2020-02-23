@@ -14,7 +14,7 @@ def row_weights(array):
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
-        numbers = [int(i) for i in input('>>> Enter numbers to examine with comma-separated: ')]
+        numbers = [int(i) for i in input('>>> Enter numbers to examine with comma-separated: ').split(',')]
         print(row_weights(array=numbers))
     else:
         sys.exit(1)
