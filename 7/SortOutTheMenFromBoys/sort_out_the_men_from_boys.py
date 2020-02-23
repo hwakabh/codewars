@@ -9,7 +9,7 @@ def men_from_boys(arr):
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
-        g = [int(c) for c in input('Enter array to split odd/even with comma-separated: ')]
+        g = [int(c) for c in input('>>> Enter array to split odd/even with comma-separated: ').split(',')]
         print(men_from_boys(arr=g))
     else:
         sys.exit(1)
