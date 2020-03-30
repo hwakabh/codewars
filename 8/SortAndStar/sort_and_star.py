@@ -3,7 +3,7 @@ import sys
 
 def two_sort(array):
     f = sorted(array)[0]
-    return ''.join('{0}'.format(c + '***') for c in f)[:-3]
+    return '***'.join(f)
 
 
 if __name__ == "__main__":
