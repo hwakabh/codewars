@@ -2,15 +2,13 @@ import sys
 
 
 def duplicate_count(text):
-    count = 0
-    text = text.lower()
-    arr = []
-    for i, c in enumerate(text.lower()):
-        if c in text[i+1:]:
-            if c not in arr:
-                count += 1
-                arr.append(c)
-    return count
+    t = text.lower()
+    d = []
+    for i, c in enumerate(t):
+        if c in t[i+1:]:
+            if c not in d:
+                d.append(c)
+    return len(d)
 
 
 if __name__ == "__main__":
