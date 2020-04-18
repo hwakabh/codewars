@@ -2,7 +2,8 @@ import sys
 
 
 def abbrevName(name):
-    return '{0}.{1}'.format(name.split()[0][0], name.split()[1][0]).upper()
+    f, l = name.upper().split()
+    return '{0}.{1}'.format(f[0], l[0])
 
 
 if __name__ == "__main__":
