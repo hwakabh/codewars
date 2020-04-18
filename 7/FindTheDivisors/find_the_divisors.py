@@ -3,7 +3,7 @@ import sys
 
 def divisors(integer):
     d = [i for i in range(2, integer) if integer % i == 0]
-    if d == []:
+    if len(d) == 0:
         return '{} is prime'.format(integer)
     else:
       return d
