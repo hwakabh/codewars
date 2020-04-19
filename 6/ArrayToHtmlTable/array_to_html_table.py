@@ -2,32 +2,31 @@ import sys
 
 
 def to_table(data, header=True, index=False):
-    h = ''
-    b = '<tbody>'
+    thead = ''
+    d = []
     if header:
-        h += '<thead><tr>'
+        # If include header, should be omit first element
+        d = data[1:]
+        # Generate thead if needed
+        h = ''.join(['<th>{}</th>'.format(i) for i in data[0]])
         if index:
-            h += '<th></th>'
-        for i in data[0]:
-            h += '<th>{}</th>'.format(i)
-        h += '</tr></thead>'
-        for k, j in enumerate(data[1:]):
-            b += '<tr>'
-            s = ['<td>{}</td>'.format(c) if not c == None else '<td></td>' for c in j]
-            if index:
-                b += '<td>{}</td>'.format(k + 1)
-            b += ''.join(s)
-            b += '</tr>'
+            thead = '<thead><tr><th></th>{}</tr></thead>'.format(h)
+        else:
+            thead = '<thead><tr>{}</tr></thead>'.format(h)
     else:
-        for k, j in enumerate(data):
-            b += '<tr>'
-            s = ['<td>{}</td>'.format(c) if not c == None else '<td></td>' for c in j]
-            if index:
-                b += '<td>{}</td>'.format(k + 1)
-            b += ''.join(s)
-            b += '</tr>'
-    b += '</tbody>'
-    return '<table>{0}{1}</table>'.format(h, b)
+        d = data
+    # Generate tbody
+    tbody = '<tbody>'
+    for k, j in enumerate(d):
+        tbody += '<tr>'
+        s = ['<td>{}</td>'.format(c) if not c == None else '<td></td>' for c in j]
+        if index:
+            tbody += '<td>{}</td>'.format(k + 1)
+        tbody += ''.join(s)
+        tbody += '</tr>'
+    tbody += '</tbody>'
+
+    return '<table>{0}{1}</table>'.format(thead, tbody)
 
 
 if __name__ == "__main__":
