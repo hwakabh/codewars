@@ -12,7 +12,7 @@ def get_planet_name(id):
         7: 'Uranus',  
         8: 'Neptune'
     }
-    return planets[id]
+    return planets.get(id, None)
 
 
 if __name__ == '__main__':
