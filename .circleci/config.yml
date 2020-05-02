@@ -1,23 +1,25 @@
 # Configuration file for Circle CI testings
 version: 2.1
 executors:
-  bash_python_executor:
+  unittest_executor:
     docker:
-      - image: python:3.4.3
+      - image: wakabh56/codewars-sandbox:v3
     shell: bash
 
 jobs:
   run_test_code:
-    executor: bash_python_executor
+    executor: unittest_executor
     working_directory: ~/codewars
     steps:
       - checkout
       - run:
           name: Checkout to latest directory and run test code
           command: |
-            cd $(dirname $(git diff --name-only HEAD HEAD^1 |head -n 1))
-            pwd
-            python3 test_*.py
+            export EXTENSION=$(git diff --name-only HEAD HEAD^1 |awk -F '[.]' '{print $2}')
+            if [ $EXTENSION = "py" ] ; then cd $(dirname $(git diff --name-only HEAD HEAD^1 |head -n 1)) ; python3.4 test_*.py ; \
+            elif [ $EXTENSION = "js" ]; then cd $(dirname $(git diff --name-only HEAD HEAD^1 |head -n 1)) ; node test_*.js ; \
+            else echo 'mismatched' ; \
+            fi
  
 workflows:
   version: 2.1
