@@ -15,9 +15,13 @@ jobs:
       - run:
           name: Checkout to latest directory and run test code
           command: |
+            echo '>>> Fetching latest commit and determine training language ...'
             export EXTENSION=$(git diff --name-only HEAD HEAD^1 |head -n 1 |awk -F '[.]' '{print $2}')
+            echo ''
+            echo '>>> Running unit testcode ...'
             if [ $EXTENSION = "py" ] ; then cd $(dirname $(git diff --name-only HEAD HEAD^1 |head -n 1)) ; python3.4 test_*.py ; \
-            elif [ $EXTENSION = "js" ]; then cd $(dirname $(git diff --name-only HEAD HEAD^1 |head -n 1)) ; node test_*.js ; \
+            elif [ $EXTENSION = "js" ] ; then cd $(dirname $(git diff --name-only HEAD HEAD^1 |head -n 1)) ; node test_*.js ; \
+            else ; echo 'No test executed.' ; \
             fi
  
 workflows:
