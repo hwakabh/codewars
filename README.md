@@ -33,8 +33,6 @@ Please refer the following links if you need further information with administra
 Since all the solutions would be required to be tested in Codewars, we have some container images to testings source codes.  
 We could check the testing results after pushing solutions in this repository, with being executed by webhooks with CircleCI.  
 
-- Dockerfile
-  - <https://github.com/hwakabh/dockerfiles/blob/master/codewars-sandbox/Dockerfile>
 - Docker Hub
   - <https://hub.docker.com/repository/docker/wakabh56/codewars-sandbox>
 
