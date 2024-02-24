@@ -1,0 +1,15 @@
+{
+  extends: [
+    "config:base",
+    "schedule:daily",
+    "group:allNonMajor",
+    ":semanticCommits",
+    ":semanticCommitTypeAll(chore)",
+    ":disableDependencyDashboard"
+  ],
+  // requires initialization of default label presets
+  labels: ["deps", "renovate"],
+  timezone: "Asia/Tokyo",
+  baseBranches: ["main"],
+  rangeStrategy: "bump"
+}
