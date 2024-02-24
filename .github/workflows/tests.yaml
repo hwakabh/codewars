@@ -33,7 +33,7 @@ jobs:
           # https://github.com/actions/setup-python/blob/main/docs/advanced-usage.md#using-the-python-version-file-input
 
       - name: Run Python Tests
-        if: steps.filter.outputs.node == 'true'
+        if: steps.filter.outputs.python == 'true'
         run: echo 'Python'
 
       # Run for Node Test
