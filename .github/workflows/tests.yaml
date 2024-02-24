@@ -1,0 +1,47 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - '**'
+      - '!main'
+  workflow_dispatch:
+
+jobs:
+  tests:
+    name: Run tests
+    runs-on: ubuntu-latest
+    # ghcr.io/hwakabh/codewars-testbed:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Filter Path
+        uses: dorny/paths-filter@v3
+        id: filter
+        with:
+          filters: '.github/config/paths-filter.yaml'
+
+      # Run for Python Test
+      - name: Setup Python
+        if: steps.filter.outputs.python == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: './Python/.python-version'
+          cache: 'pip'
+          # https://github.com/actions/setup-python/blob/main/docs/advanced-usage.md#using-the-python-version-file-input
+
+      - name: Run Python Tests
+        run: echo 'Python'
+
+      # Run for Node Test
+      - name: Setup Node.js
+        if: steps.filter.outputs.node == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: './node/.node-version'
+
+      # TBD
+      - name: Run Node.js Tests
+        run: echo 'Node'
