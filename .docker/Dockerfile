@@ -1,5 +1,6 @@
 FROM centos:7
-LABEL MAINTAINER="hwakabh"
+LABEL MAINTAINER="hwakabh <hrykwkbys1024@gmail.com>" \
+      version="1.0"
 
 WORKDIR /tmp
 
