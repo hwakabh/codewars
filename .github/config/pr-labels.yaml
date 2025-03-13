@@ -1,5 +1,7 @@
 builds:
 - head-branch: ['^build']
+- changed-files:
+  - any-glob-to-any-file: ['.docker/**/*']
 
 bugs:
 - head-branch: ['^fix/', '^hotfix/']
@@ -9,7 +11,7 @@ deploy:
 
 ci:
 - changed-files:
-  - any-glob-to-any-file: ['.github/**/*']
+  - any-glob-to-any-file: ['.github/**/*', 'renovate.json5']
 - head-branch: ['^ci/']
 
 deps:
