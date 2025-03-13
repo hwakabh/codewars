@@ -1,0 +1,32 @@
+builds:
+- head-branch: ['^build']
+
+bugs:
+- head-branch: ['^fix/', '^hotfix/']
+
+deploy:
+- head-branch: ['^deploy']
+
+ci:
+- changed-files:
+  - any-glob-to-any-file: ['.github/**/*']
+- head-branch: ['^ci/']
+
+deps:
+- head-branch: ['^renovate/', '^deps/']
+- changed-files:
+  - any-glob-to-any-file: ['node/.node-version', 'python/.python-version']
+
+docs:
+- changed-files:
+  - any-glob-to-any-file: ['**/README.md', '**/CHANGELOG.md']
+
+features:
+- head-branch: ['^feat']
+
+renovate:
+- head-branch: ['^renovate/']
+
+tests:
+- changed-files:
+  - any-glob-to-any-file: ['tests/**/*']
