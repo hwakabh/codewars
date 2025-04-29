@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from triple_trouble import triple_trouble
+from .triple_trouble import triple_trouble
 
 
 class TestTripleTrouble(TestCase):

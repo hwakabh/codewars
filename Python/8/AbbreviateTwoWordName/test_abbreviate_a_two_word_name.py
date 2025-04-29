@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from abbreviate_a_two_word_name import abbrevName
+from .abbreviate_a_two_word_name import abbrevName
 
 
 class TestAbbreviateATwoWordName(TestCase):

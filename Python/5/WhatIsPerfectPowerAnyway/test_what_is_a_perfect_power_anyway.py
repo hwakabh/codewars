@@ -2,7 +2,7 @@ from unittest import TestCase
 from unittest import main
 from random import randint
 
-from what_is_a_perfect_power_anyway import isPP
+from .what_is_a_perfect_power_anyway import isPP
 
 
 class TestWhatIsAPerfectPowerAnyway(TestCase):

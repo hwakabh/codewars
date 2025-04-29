@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from my_languages import my_languages
+from .my_languages import my_languages
 
 
 class TestMyLanguages(TestCase):

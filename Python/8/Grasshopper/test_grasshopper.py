@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from grasshopper import goals
+from .grasshopper import goals
 
 
 class TestGrasshopper(TestCase):

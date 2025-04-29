@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from most_sales import top3
+from .most_sales import top3
 
 
 class TestMostSales(TestCase):

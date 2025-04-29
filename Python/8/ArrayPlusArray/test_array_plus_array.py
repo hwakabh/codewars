@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from array_plus_array import array_plus_array
+from .array_plus_array import array_plus_array
 
 
 class TestArrayPlusArray(TestCase):

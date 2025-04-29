@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from century_from_year import century
+from .century_from_year import century
 
 
 class TestCenturyFromYear(TestCase):

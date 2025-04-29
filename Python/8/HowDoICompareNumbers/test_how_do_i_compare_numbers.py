@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from how_do_i_compare_numbers import what_is
+from .how_do_i_compare_numbers import what_is
 
 
 class TestHowDoICompareNumbers(TestCase):

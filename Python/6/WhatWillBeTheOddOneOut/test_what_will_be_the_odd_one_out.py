@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from what_will_be_the_odd_one_out import odd_one_out
+from .what_will_be_the_odd_one_out import odd_one_out
 
 
 class TestWhatWillBeTheOddOneOut(TestCase):

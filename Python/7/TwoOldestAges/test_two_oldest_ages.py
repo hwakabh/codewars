@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from two_oldest_ages import two_oldest_ages
+from .two_oldest_ages import two_oldest_ages
 
 
 class TestTwoOldestAges(TestCase):

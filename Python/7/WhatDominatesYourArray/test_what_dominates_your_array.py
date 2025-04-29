@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from what_dominates_your_array import dominator
+from .what_dominates_your_array import dominator
 
 
 class TestWhatDominamtesYourArray(TestCase):

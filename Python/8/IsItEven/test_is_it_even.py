@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from is_it_even import is_even
+from .is_it_even import is_even
 
 
 class TestIsItEven(TestCase):

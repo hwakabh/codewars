@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from sum_of_angles import angle
+from .sum_of_angles import angle
 
 
 class TestSumOfAngles(TestCase):

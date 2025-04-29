@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from remove_first_and_last_char import remove_char
+from .remove_first_and_last_char import remove_char
 
 
 class TestRemoveFirstAndLastChar(TestCase):

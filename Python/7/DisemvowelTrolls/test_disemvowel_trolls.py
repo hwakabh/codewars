@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from disemvowel_trolls import disemvowel
+from .disemvowel_trolls import disemvowel
 
 
 class TestDisemvowelTrolles(TestCase):

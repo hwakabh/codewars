@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from duplicate_encoder import duplicate_encode
+from .duplicate_encoder import duplicate_encode
 
 
 class TestDuplicateEncoder(TestCase):

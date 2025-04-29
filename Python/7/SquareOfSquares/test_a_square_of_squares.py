@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from a_square_of_squares import is_square
+from .a_square_of_squares import is_square
 
 
 class TestASquareOfSquares(TestCase):

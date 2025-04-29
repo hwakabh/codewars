@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from the_wide_mouthed_frog import mouth_size
+from .the_wide_mouthed_frog import mouth_size
 
 
 class TestTheWideMouthedFrog(TestCase):

@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from descending_order import descending_order
+from .descending_order import descending_order
 
 
 class TestDescendingOrder(TestCase):

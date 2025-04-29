@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from hex_words_sum import hex_word_sum
+from .hex_words_sum import hex_word_sum
 
 
 class TestHexWordsSum(TestCase):

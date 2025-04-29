@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from complementary_dna import DNA_stand
+from .complementary_dna import DNA_stand
 
 
 class TestComplementaryDna(TestCase):

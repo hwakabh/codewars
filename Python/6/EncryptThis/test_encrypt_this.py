@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from encrypt_this import encrypt_this
+from .encrypt_this import encrypt_this
 
 
 class TestEncryptThis(TestCase):

@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from no_zeros_for_heros import no_boring_zeros
+from .no_zeros_for_heros import no_boring_zeros
 
 
 class TestNoZerosForHeros(TestCase):

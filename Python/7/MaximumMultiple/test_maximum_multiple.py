@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from maximum_multiple import max_multiple
+from .maximum_multiple import max_multiple
 
 
 class TestMaximumMultiple(TestCase):

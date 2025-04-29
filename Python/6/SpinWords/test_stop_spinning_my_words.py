@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from stop_spinning_my_words import spin_words
+from .stop_spinning_my_words import spin_words
 
 class TestStopSpinningMyWords(TestCase):
     # Test Class of stop_spinning_my_words

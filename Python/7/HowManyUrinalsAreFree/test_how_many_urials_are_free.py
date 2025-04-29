@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from how_many_urinals_are_free import get_free_urinals
+from .how_many_urinals_are_free import get_free_urinals
 
 
 class TestHowManyUrinalsAreFree(TestCase):

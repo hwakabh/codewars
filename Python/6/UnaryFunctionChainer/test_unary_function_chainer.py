@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from unary_function_chainer import chained
+from .unary_function_chainer import chained
 
 
 class TestUnaryFunctionChainer(TestCase):

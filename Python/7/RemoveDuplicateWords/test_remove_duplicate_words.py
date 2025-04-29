@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from remove_duplicate_words import remove_duplicate_words
+from .remove_duplicate_words import remove_duplicate_words
 
 
 class TestRemoveDuplicateWords(TestCase):

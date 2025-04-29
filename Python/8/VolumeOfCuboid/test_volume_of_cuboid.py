@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from volume_of_cuboid import getVolumeOfCuboid
+from .volume_of_cuboid import getVolumeOfCuboid
 
 
 class TestVolumeOfCuboid(TestCase):

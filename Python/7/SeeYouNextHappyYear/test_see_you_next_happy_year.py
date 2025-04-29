@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from see_you_next_happy_year import next_happy_year
+from .see_you_next_happy_year import next_happy_year
 
 
 class TestSeeYouNextHappyYear(TestCase):

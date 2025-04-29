@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from array_diff import array_diff
+from .array_diff import array_diff
 
 
 class TestArrayDiff(TestCase):
@@ -14,7 +14,7 @@ class TestArrayDiff(TestCase):
             ([1, 2, 2], [], [1, 2, 2]),
             ([], [1, 2], [])
         ]
-        
+
         for first, second, expected in test_patterns:
             with self.subTest(first=first, second=second, expected=expected):
                 self.assertEqual(array_diff(a=first, b=second), expected)

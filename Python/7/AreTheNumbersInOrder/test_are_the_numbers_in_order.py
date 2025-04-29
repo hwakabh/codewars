@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from are_the_numbers_in_order import in_asc_order
+from .are_the_numbers_in_order import in_asc_order
 
 
 class TestAreTheNumbersInOrder(TestCase):

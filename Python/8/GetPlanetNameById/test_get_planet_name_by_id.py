@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from get_planet_name_by_id import get_planet_name
+from .get_planet_name_by_id import get_planet_name
 
 
 class TestGetPlanetNameById(TestCase):

@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from what_is_my_golf_score import golf_score_calculator
+from .what_is_my_golf_score import golf_score_calculator
 
 
 class TestWhatIsMyGolfScore(TestCase):

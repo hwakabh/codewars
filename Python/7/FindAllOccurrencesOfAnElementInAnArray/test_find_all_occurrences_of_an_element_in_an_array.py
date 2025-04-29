@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from find_all_occurrences_of_an_element_in_an_array import find_all
+from .find_all_occurrences_of_an_element_in_an_array import find_all
 
 
 class TestFindAllOccurrencesOfAnElementInAnArray(TestCase):

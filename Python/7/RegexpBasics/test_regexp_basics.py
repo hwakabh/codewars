@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from regexp_basics import is_vowel
+from .regexp_basics import is_vowel
 
 
 class TestRegexpBasics(TestCase):

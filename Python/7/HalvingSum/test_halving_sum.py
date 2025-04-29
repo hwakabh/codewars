@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from halving_sum import halving_sum
+from .halving_sum import halving_sum
 
 
 class TestHalvingSum(TestCase):

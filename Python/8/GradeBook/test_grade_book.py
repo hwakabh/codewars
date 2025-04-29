@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from grade_book import get_grade
+from .grade_book import get_grade
 
 
 class TestGradeBook(TestCase):

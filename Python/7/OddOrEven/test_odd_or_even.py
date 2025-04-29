@@ -5,7 +5,7 @@
 from unittest import TestCase
 from unittest import main
 
-from odd_or_even import oddOrEven
+from .odd_or_even import oddOrEven
 
 
 class TestOddOrEven(TestCase):

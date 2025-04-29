@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from alternative_capitalization import capitalize
+from .alternative_capitalization import capitalize
 
 
 class TestAlternativeCapitalization(TestCase):

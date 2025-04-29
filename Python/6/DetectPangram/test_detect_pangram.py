@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from detect_pangram import is_pangram
+from .detect_pangram import is_pangram
 
 
 class TestDetectPangram(TestCase):

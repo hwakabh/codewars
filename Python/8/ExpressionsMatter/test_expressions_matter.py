@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from expressions_matter import expression_matter
+from .expressions_matter import expression_matter
 
 
 class TestExpressionsMatter(TestCase):

@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from are_they_the_same import comp
+from .are_they_the_same import comp
 
 
 class TestAreTheyTheSame(TestCase):

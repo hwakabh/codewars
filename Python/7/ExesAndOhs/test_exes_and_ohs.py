@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from exes_and_ohs import xo
+from .exes_and_ohs import xo
 
 
 class TestExesAndOhs(TestCase):

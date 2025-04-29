@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from form_the_largest import max_number
+from .form_the_largest import max_number
 
 
 class TestFormTheLargest(TestCase):

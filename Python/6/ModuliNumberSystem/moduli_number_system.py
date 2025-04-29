@@ -1,12 +1,12 @@
 import sys
-import fractions
+import math
 import functools
 
 
 def fromNb2Str(n, modsys):
     # Reject if elements of modsys is not pairwise co-prime
     def gcd(*numbers):
-        return functools.reduce(fractions.gcd, numbers)
+        return functools.reduce(math.gcd, numbers)
     for m in modsys:
         for i in range(len(modsys)):
             if m == modsys[i]:

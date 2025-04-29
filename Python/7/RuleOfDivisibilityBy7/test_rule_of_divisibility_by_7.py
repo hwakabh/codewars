@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from rule_of_divisibility_by_7 import seven
+from .rule_of_divisibility_by_7 import seven
 
 
 class TestRuleOfDivisibilityBy7(TestCase):

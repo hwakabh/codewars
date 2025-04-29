@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from cyclops_numbers import cyclops
+from .cyclops_numbers import cyclops
 
 
 class TestCyclopsNumbers(TestCase):

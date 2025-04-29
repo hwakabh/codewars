@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from find_duplicates import duplicates
+from .find_duplicates import duplicates
 
 
 class TestFindDuplicates(TestCase):

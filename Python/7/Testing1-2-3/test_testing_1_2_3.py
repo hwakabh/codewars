@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from testing_1_2_3 import number
+from .testing_1_2_3 import number
 
 
 class TestTesting123(TestCase):

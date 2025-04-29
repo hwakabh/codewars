@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from debug_sum_of_digits_of_a_number import get_sum_of_digits
+from .debug_sum_of_digits_of_a_number import get_sum_of_digits
 
 
 class TestDebugSumOfDigitsOfANumber(TestCase):

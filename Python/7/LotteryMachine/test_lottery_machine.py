@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from lottery_machine import lottery
+from .lottery_machine import lottery
 
 
 class TestLotteryMachine(TestCase):

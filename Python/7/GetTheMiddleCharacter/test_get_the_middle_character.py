@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from get_the_middle_character import get_middle
+from .get_the_middle_character import get_middle
 
 class TestGetMiddle(TestCase):
     # Test Class of get_middle()

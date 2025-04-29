@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from factorial import factorial
+from .factorial import factorial
 
 
 class TestFactorial(TestCase):

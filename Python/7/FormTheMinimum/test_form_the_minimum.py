@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from form_the_minimum import min_value
+from .form_the_minimum import min_value
 
 
 class TestFormTheMinimum(TestCase):

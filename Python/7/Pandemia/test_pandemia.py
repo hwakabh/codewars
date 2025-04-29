@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from pandemia import infected
+from .pandemia import infected
 
 
 class TestPandemia(TestCase):

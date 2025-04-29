@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from very_even_numbers import is_very_even_number
+from .very_even_numbers import is_very_even_number
 
 
 class TestVeryEvenNumbers(TestCase):

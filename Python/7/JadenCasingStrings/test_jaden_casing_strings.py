@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from jaden_casing_strings import toJadenCase
+from .jaden_casing_strings import toJadenCase
 
 
 class TestJadenCasingStrings(TestCase):

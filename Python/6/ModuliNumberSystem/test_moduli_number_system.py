@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from moduli_number_system import  fromNb2Str
+from .moduli_number_system import fromNb2Str
 
 
 class TestModuliNumberSystem(TestCase):

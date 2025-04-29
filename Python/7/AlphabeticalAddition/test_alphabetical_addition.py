@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from alphabetical_addition import add_letters
+from .alphabetical_addition import add_letters
 
 
 class TestAlphabeticalAddition(TestCase):

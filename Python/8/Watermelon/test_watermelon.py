@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from watermelon import divide
+from .watermelon import divide
 
 
 class TestWatermelon(TestCase):

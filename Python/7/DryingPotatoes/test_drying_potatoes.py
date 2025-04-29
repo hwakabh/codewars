@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from drying_potatoes import potatoes
+from .drying_potatoes import potatoes
 
 
 class TestDryingPotatoes(TestCase):

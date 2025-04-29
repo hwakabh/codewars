@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from what_is_your_poison import find
+from .what_is_your_poison import find
 
 
 class TestWhatIsYourPoison(TestCase):

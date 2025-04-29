@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from will_you_make_it import zero_fuel
+from .will_you_make_it import zero_fuel
 
 
 class TestWillYouMakeIt(TestCase):

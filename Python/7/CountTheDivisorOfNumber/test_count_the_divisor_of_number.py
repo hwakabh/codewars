@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from count_the_divisor_of_number import divisors
+from .count_the_divisor_of_number import divisors
 
 
 class TestCountTheDivisorOfNumber(TestCase):

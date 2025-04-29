@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from string_letter_counting import string_letter_count
+from .string_letter_counting import string_letter_count
 
 
 class TestStringLetterCounting(TestCase):

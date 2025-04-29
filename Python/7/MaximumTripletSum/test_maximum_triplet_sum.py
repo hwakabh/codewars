@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from maximum_triplet_sum import max_tri_sum
+from .maximum_triplet_sum import max_tri_sum
 
 
 class TestMaxiumumTripletSum(TestCase):

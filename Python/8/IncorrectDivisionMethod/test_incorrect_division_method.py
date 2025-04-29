@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from incorrect_division_method import divide_numbers
+from .incorrect_division_method import divide_numbers
 
 
 class TestIncorrectDivisionMethod(TestCase):

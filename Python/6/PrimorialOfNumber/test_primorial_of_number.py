@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from primorial_of_number import num_primorial
+from .primorial_of_number import num_primorial
 
 
 class TestPrimorialOfNumber(TestCase):

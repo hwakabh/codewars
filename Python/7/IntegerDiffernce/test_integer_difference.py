@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from integer_difference import int_diff
+from .integer_difference import int_diff
 
 
 class TestIntegerDifference(TestCase):

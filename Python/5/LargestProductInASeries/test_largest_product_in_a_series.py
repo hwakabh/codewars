@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from largest_product_in_a_series import greatest_product
+from .largest_product_in_a_series import greatest_product
 
 
 class TestLargestProductInASeries(TestCase):

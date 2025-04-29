@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from polydivisible_numbers import polydivisible
+from .polydivisible_numbers import polydivisible
 
 
 class TestPolydivisibleNumbers(TestCase):

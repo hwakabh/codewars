@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from sum_mixed_array import sum_mix
+from .sum_mixed_array import sum_mix
 
 
 class TestSumMixedArray(TestCase):

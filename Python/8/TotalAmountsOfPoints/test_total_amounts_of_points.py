@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from total_amounts_of_points import points
+from .total_amounts_of_points import points
 
 
 class TestTotalAmountsOfPoints(TestCase):

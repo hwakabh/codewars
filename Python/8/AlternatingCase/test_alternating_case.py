@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from alternating_case import to_alternating_case
+from .alternating_case import to_alternating_case
 
 
 class TestAlternatingCase(TestCase):

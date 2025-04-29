@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from sort_and_star import two_sort
+from .sort_and_star import two_sort
 
 
 class TestSortAndStar(TestCase):

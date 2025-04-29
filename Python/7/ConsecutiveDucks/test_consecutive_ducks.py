@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from consecutive_ducks import consecutive_ducks
+from .consecutive_ducks import consecutive_ducks
 
 
 class TestConsecutiveDucks(TestCase):

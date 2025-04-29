@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from growth_of_population import nb_year
+from .growth_of_population import nb_year
 
 
 class TestGrowthOfPopulation(TestCase):

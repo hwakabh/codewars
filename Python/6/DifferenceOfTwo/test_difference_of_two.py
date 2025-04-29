@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from difference_of_two import twos_differnece
+from .difference_of_two import twos_differnece
 
 
 class TestDiffernceOfTwo(TestCase):

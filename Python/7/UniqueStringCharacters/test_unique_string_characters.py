@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from unique_string_characters import solve
+from .unique_string_characters import solve
 
 
 class TestUniqueStringCharacters(TestCase):

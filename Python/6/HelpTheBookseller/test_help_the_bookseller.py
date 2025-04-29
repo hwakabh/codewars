@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from help_the_bookseller import stock_list
+from .help_the_bookseller import stock_list
 
 
 class TestHelpTheBookseller(TestCase):

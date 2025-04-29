@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from take_the_derivative import derive
+from .take_the_derivative import derive
 
 
 class TestTakeTheDerivative(TestCase):

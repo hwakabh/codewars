@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from number_to_string import to_string
+from .number_to_string import to_string
 
 
 class TestNumberToString(TestCase):

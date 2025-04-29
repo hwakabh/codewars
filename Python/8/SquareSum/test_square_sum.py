@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from square_sum import square_sum
+from .square_sum import square_sum
 
 
 class TestSquareSum(TestCase):

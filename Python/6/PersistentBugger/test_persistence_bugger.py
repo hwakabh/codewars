@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from persistence_bugger import persistence
+from .persistence_bugger import persistence
 
 
 class TestPersistenceBugger(TestCase):

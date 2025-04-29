@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from series_of_integers_from_m_to_n import generate_integers
+from .series_of_integers_from_m_to_n import generate_integers
 
 
 class TestSeriesOfIntegersFromMToN(TestCase):

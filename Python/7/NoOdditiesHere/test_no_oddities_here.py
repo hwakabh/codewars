@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from no_oddities_here import no_odds
+from .no_oddities_here import no_odds
 
 
 class TestNoOdditiesHere(TestCase):

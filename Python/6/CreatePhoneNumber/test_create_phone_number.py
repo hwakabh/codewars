@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from create_phone_number import create_phone_number
+from .create_phone_number import create_phone_number
 
 
 class TestCreatePhoneNumber(TestCase):

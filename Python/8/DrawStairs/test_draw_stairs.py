@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from draw_stairs import draw_stairs
+from .draw_stairs import draw_stairs
 
 
 class TestDrawStairs(TestCase):

@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from is_the_string_uppercase import is_uppercase
+from .is_the_string_uppercase import is_uppercase
 
 
 class TestIsTheStringUppercase(TestCase):

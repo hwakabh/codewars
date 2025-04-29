@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from clock import past
+from .clock import past
 
 
 class TestClock(TestCase):

@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from sums_of_parts import parts_sums
+from .sums_of_parts import parts_sums
 
 
 class TestSumsOfParts(TestCase):

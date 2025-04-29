@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from element_equals_its_index import index_equals_value
+from .element_equals_its_index import index_equals_value
 
 
 class TestElementEqualsItsIndex(TestCase):

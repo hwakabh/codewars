@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from reversed_sequence import reverse_seq
+from .reversed_sequence import reverse_seq
 
 
 class TestReversedSequence(TestCase):

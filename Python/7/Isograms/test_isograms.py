@@ -1,5 +1,6 @@
 import unittest
-from isograms import is_isogram
+
+from .isograms import is_isogram
 
 class TestIsogram(unittest.TestCase):
     # Test class of isograms.py

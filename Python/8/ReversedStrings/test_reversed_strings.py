@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from reversed_strings import solutions
+from .reversed_strings import solutions
 
 
 class TestReversedStrings(TestCase):

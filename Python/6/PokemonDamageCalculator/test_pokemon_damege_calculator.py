@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from pokemon_damage_calculator import calculate_damage
+from .pokemon_damage_calculator import calculate_damage
 
 
 class TestPokemonDamageCalculator(TestCase):
