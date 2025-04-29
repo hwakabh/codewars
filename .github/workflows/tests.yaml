@@ -26,14 +26,14 @@ jobs:
       - name: Setup Python
         if: steps.filter.outputs.python == 'true'
         uses: actions/setup-python@v5
-        working-directory: ./Python
+        working-directory: ./python
         with:
           python-version-file: '.python-version'
           # https://github.com/actions/setup-python/blob/main/docs/advanced-usage.md#using-the-python-version-file-input
 
       - name: Run Python Tests
         if: steps.filter.outputs.python == 'true'
-        working-directory: ./Python
+        working-directory: ./python
         run: |
           python -m unittest --verbose */*/test_*.py
 

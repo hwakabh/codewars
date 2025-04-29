@@ -1,7 +1,5 @@
 builds:
 - head-branch: ['^build']
-- changed-files:
-  - any-glob-to-any-file: ['.docker/**/*']
 
 bugs:
 - head-branch: ['^fix/', '^hotfix/']

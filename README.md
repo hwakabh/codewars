@@ -8,7 +8,7 @@ Note that all the sources would be expected to run only with the specified versi
 
 | Languages | Tools | Configurations |
 | --- | --- | --- |
-| Python | pyenv | `./Python/.python-version` |
+| Python | pyenv | `./python/.python-version` |
 | Node.js | nodenv | `./node/.node-version` |
 
 In this repository, we have expected to use some administration tools for controlling multiple runtime versions, so we need to install them first.

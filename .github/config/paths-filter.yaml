@@ -1,5 +1,5 @@
 python:
-  - 'Python/**'
+  - 'python/**'
 node:
   - 'node/**'
 go:
