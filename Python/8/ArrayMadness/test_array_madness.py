@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from array_madness import array_madness
+from .array_madness import array_madness
 
 
 class TestArrayMadness(TestCase):

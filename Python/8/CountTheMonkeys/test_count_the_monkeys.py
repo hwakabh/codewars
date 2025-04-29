@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from count_the_monkyes import monkey_count
+from .count_the_monkyes import monkey_count
 
 
 class TestCountTheMonkeys(TestCase):

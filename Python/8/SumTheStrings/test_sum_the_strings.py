@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from sum_the_strings import sum_str
+from .sum_the_strings import sum_str
 
 
 class TestSumTheStrings(TestCase):

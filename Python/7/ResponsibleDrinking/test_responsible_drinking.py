@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from responsible_drinking import hydrate
+from .responsible_drinking import hydrate
 
 
 class TestResponsibleDrinking(TestCase):

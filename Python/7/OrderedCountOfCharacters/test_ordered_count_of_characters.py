@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from ordered_count_of_characters import ordered_count
+from .ordered_count_of_characters import ordered_count
 
 
 class TestOrderedCountOfCharacters(TestCase):

@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from find_all_non_consecutive_numbers import all_non_consecutive
+from .find_all_non_consecutive_numbers import all_non_consecutive
 
 
 class TestFindAllNonConsecutiveNumbers(TestCase):

@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from arrh_grabscrab import grabscrab
+from .arrh_grabscrab import grabscrab
 
 
 class TestArrhGrabscrab(TestCase):

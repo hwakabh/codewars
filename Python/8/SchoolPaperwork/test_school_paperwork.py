@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from school_paperwork import paperwork
+from .school_paperwork import paperwork
 
 
 class TestSchoolPaperwork(TestCase):

@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from sum_of_minimals import sum_of_minimals
+from .sum_of_minimals import sum_of_minimals
 
 
 class TestSumOfMinimals(TestCase):

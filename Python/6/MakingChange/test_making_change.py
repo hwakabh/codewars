@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from making_change import make_change
+from .making_change import make_change
 
 
 class TestMakingChange(TestCase):

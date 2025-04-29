@@ -1,11 +1,11 @@
 # test.assert_equals(tickets([25, 25, 50]), "YES")
 # test.assert_equals(tickets([25, 100]), "NO")
-# tickets([25, 25, 50, 50, 100]), "NO" 
+# tickets([25, 25, 50, 50, 100]), "NO"
 
 from unittest import TestCase
 from unittest import main
 
-from vasya_clerk import tickets
+from .vasya_clerk import tickets
 
 
 class TestVasyaClerk(TestCase):

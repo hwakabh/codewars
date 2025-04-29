@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from return_negative import make_nagative
+from .return_negative import make_nagative
 
 
 class TestReturnNegative(TestCase):

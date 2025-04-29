@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from find_the_first_non_consecutive_number import first_non_consecutive
+from .find_the_first_non_consecutive_number import first_non_consecutive
 
 
 class TestFindTheFirstNonConsecutiveNumber(TestCase):

@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from row_of_the_odd_triangle import odd_row
+from .row_of_the_odd_triangle import odd_row
 
 
 class TestRowOfTheOddTriangle(TestCase):

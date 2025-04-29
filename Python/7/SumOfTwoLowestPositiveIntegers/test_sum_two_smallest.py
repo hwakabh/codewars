@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from sum_two_smallest import sum_two_smallest_numbers
+from .sum_two_smallest import sum_two_smallest_numbers
 
 class TestSumTwoSmallest(TestCase):
     # Test class of SumTwoSmallest

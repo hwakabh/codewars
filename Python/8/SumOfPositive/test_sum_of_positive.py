@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from sum_of_positive import positive_sum
+from .sum_of_positive import positive_sum
 
 
 class TestSumOfPositive(TestCase):

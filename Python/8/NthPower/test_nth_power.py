@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from nth_power import index
+from .nth_power import index
 
 
 class TestNthPower(TestCase):

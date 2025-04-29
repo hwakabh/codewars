@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from bit_counting import countBits
+from .bit_counting import countBits
 
 class TestBitCounting(TestCase):
     # Test Class of bit_counting

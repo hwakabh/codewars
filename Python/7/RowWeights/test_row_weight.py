@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from row_weights import row_weights
+from .row_weights import row_weights
 
 
 class TestRowWeights(TestCase):

@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from string_ends_with import solution
+from .string_ends_with import solution
 
 
 class TestStringEndsWith(TestCase):

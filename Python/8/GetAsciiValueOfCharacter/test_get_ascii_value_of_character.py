@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from get_ascii_value_of_character import get_ascii
+from .get_ascii_value_of_character import get_ascii
 
 
 class TestGetAsciiValueOfCharacter(TestCase):

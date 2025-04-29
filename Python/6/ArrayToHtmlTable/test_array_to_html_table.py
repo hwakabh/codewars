@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from array_to_html_table import to_table
+from .array_to_html_table import to_table
 
 
 class TestArrayToHtmlTable(TestCase):

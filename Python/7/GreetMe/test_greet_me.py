@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from greet_me import greet
+from .greet_me import greet
 
 
 class TestGreetMe(TestCase):

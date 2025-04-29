@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from square_every_digit import square_digits
+from .square_every_digit import square_digits
 
 class TestSquareEveryDigit(TestCase):
     # Test class of square_every_digit

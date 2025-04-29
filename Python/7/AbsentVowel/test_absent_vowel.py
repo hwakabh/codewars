@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from absent_vowel import absent_vowel
+from .absent_vowel import absent_vowel
 
 
 class TestAbsentVowel(TestCase):

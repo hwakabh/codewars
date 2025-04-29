@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from numbers_to_letters import switcher
+from .numbers_to_letters import switcher
 
 
 class TestNumbersToLetters(TestCase):

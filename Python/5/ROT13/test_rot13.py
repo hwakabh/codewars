@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from rot13 import rot13
+from .rot13 import rot13
 
 
 class TestRot13(TestCase):

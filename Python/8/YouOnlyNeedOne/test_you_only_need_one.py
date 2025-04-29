@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from you_only_need_one import check
+from .you_only_need_one import check
 
 
 class TestYouOnlyNeedOne(TestCase):

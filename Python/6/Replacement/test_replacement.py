@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from replacement import sort_number
+from .replacement import sort_number
 
 
 class TestReplacement(TestCase):

@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from keep_hydrated import litres
+from .keep_hydrated import litres
 
 
 class TestKeepHydrated(TestCase):

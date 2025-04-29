@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from convert_number_to_reversed_array_of_digits import digitize
+from .convert_number_to_reversed_array_of_digits import digitize
 
 
 class TestConvertNumberToReversedArrayOfDigits(TestCase):

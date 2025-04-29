@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from rule_of_divisibility_by_13 import thirt
+from .rule_of_divisibility_by_13 import thirt
 
 
 class TestRuleOfDivisibilityBy13(TestCase):

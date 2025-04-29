@@ -1,7 +1,7 @@
 from unittest import  TestCase
 from unittest import main
 
-from how_good_are_you_really import better_than_average
+from .how_good_are_you_really import better_than_average
 
 
 class TestHowGoodAreYouReally(TestCase):

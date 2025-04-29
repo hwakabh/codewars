@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from sum_of_triangular_numbers import sum_triangular_numbers
+from .sum_of_triangular_numbers import sum_triangular_numbers
 
 
 class TestSumOfTriangularNumbers(TestCase):

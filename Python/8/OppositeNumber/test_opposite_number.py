@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from opposite_number import opposite
+from .opposite_number import opposite
 
 
 class TestOppositeNumber(TestCase):

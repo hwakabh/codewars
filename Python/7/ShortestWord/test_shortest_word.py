@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from shortest_word import find_short
+from .shortest_word import find_short
 
 
 class TestShortestWord(TestCase):

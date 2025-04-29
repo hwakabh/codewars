@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from split_strings import solution
+from .split_strings import solution
 
 
 class TestSplitStrings(TestCase):

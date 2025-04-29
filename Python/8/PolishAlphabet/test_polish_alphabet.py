@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from polish_alphabet import correct_polish_letters
+from .polish_alphabet import correct_polish_letters
 
 
 class TestPolishAlphabet(TestCase):

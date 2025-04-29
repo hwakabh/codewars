@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from breaking_chocolate_problem import breakChocolate
+from .breaking_chocolate_problem import breakChocolate
 
 
 class TestBreakingChocolateProblem(TestCase):

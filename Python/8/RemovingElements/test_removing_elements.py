@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from removing_elements import remove_every_other
+from .removing_elements import remove_every_other
 
 
 class TestRemovingElements(TestCase):

@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from squash_the_bugs import find_longest
+from .squash_the_bugs import find_longest
 
 
 class SquashTheBugs(TestCase):

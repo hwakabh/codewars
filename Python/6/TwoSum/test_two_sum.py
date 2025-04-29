@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from two_sum import two_sum
+from .two_sum import two_sum
 
 
 class TestTwoSum(TestCase):

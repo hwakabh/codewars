@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from number_zoo_partrol import find_missing_number
+from .number_zoo_partrol import find_missing_number
 
 
 class TestNumberZooPatrol(TestCase):

@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from is_he_gonna_suvive import hero
+from .is_he_gonna_suvive import hero
 
 
 class TestIsHeGonnaSuvive(TestCase):

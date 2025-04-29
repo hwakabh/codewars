@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from consonant_value import solve
+from .consonant_value import solve
 
 
 class TestConsonantValue(TestCase):

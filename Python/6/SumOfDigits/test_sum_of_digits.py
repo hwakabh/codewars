@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from sum_of_digits import digital_root
+from .sum_of_digits import digital_root
 
 
 class TestSumOfDigits(TestCase):

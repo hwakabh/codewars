@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from counting_duplicates import duplicate_count
+from .counting_duplicates import duplicate_count
 
 
 class TestCountingDuplicates(TestCase):

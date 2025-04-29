@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from count_letters_and_digits import count_letters_and_digits
+from .count_letters_and_digits import count_letters_and_digits
 
 
 class TetstCountLettersAndDigits(TestCase):

@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from next_polydivisible_number import next_num
+from .next_polydivisible_number import next_num
 
 
 class TestNextPolydivisibleNumber(TestCase):

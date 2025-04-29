@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from break_camel_case import solution
+from .break_camel_case import solution
 
 
 class TestBreakCamelCase(TestCase):

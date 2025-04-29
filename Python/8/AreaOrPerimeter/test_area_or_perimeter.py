@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from area_or_perimeter import area_or_perimeter
+from .area_or_perimeter import area_or_perimeter
 
 
 class TestAreaOrParameter(TestCase):

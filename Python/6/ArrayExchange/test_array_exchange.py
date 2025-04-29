@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from array_exchange import exchange_with
+from .array_exchange import exchange_with
 
 
 class TestArrayExchange(TestCase):

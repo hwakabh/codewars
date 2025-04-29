@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from find_the_divisors import divisors
+from .find_the_divisors import divisors
 
 
 class TestFindTheDivisors(TestCase):

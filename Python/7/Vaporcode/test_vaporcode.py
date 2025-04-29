@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from vaporcode import vaporcode
+from .vaporcode import vaporcode
 
 
 class TestVaporcode(TestCase):

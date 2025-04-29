@@ -1,6 +1,6 @@
 from unittest import TestCase, main
 
-from find_the_capitals import capital
+from .find_the_capitals import capital
 
 
 class TestFindTheCapitals(TestCase):

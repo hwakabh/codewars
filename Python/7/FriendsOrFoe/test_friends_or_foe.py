@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from friends_or_foe import friends
+from .friends_or_foe import friends
 
 
 class TestFriendsOrFoe(TestCase):

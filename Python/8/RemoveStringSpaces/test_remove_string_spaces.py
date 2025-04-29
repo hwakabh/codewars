@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from remove_string_spaces import no_space
+from .remove_string_spaces import no_space
 
 
 class TestRemoveStringSpaces(TestCase):

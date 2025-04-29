@@ -1,7 +1,8 @@
 from unittest import TestCase
 from unittest import main
 
-from minimum_to_multiple import minimum
+from .minimum_to_multiple import minimum
+
 
 class TestMinimumToMultiple(TestCase):
     # Test class of minimum_to_multiple

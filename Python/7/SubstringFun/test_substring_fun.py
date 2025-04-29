@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from substring_fun import nth_char
+from .substring_fun import nth_char
 
 
 class TestSubstringFun(TestCase):

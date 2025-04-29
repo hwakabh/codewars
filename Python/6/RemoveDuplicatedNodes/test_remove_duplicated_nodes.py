@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from remove_duplicated_nodes import remove_duplicate
+from .remove_duplicated_nodes import remove_duplicate
 
 
 class TestRemoveDuplicatedNodes(TestCase):

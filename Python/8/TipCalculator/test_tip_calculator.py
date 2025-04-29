@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from tip_calculator import calculate_tip
+from .tip_calculator import calculate_tip
 
 
 class TestTipCalculator(TestCase):

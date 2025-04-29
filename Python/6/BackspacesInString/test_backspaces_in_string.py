@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest import main
 
-from backspaces_in_string import clean_string
+from .backspaces_in_string import clean_string
 
 
 class TestBackspacesInString(TestCase):
