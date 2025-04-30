@@ -27,7 +27,7 @@ jobs:
         if: steps.filter.outputs.python == 'true'
         uses: actions/setup-python@v5
         with:
-          python-version-file: '.python-version'
+          python-version-file: 'python/.python-version'
           # https://github.com/actions/setup-python/blob/main/docs/advanced-usage.md#using-the-python-version-file-input
 
       - name: Run Python Tests
@@ -41,7 +41,7 @@ jobs:
         if: steps.filter.outputs.node == 'true'
         uses: actions/setup-node@v4
         with:
-          node-version-file: '.node-version'
+          node-version-file: 'node/.node-version'
 
       - name: Run Node.js Tests
         if: steps.filter.outputs.node == 'true'
