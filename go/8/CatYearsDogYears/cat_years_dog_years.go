@@ -2,21 +2,21 @@
 package kata
 
 func CalculateYears(years int) (result [3]int) {
-	var ret [3]int
+	var r [3]int
 
 	if years == 1 {
-		ret[0] = years
-		ret[1] = 15
-		ret[2] = 15
+		r[0] = years
+		r[1] = 15
+		r[2] = 15
 	} else if years == 2 {
-		ret[0] = years
-		ret[1] = 24
-		ret[2] = 24
+		r[0] = years
+		r[1] = 24
+		r[2] = 24
 	} else {
-		ret[0] = years
-		ret[1] = 24 + (years-2)*4
-		ret[2] = 24 + (years-2)*5
+		r[0] = years
+		r[1] = 24 + (years-2)*4
+		r[2] = 24 + (years-2)*5
 	}
 
-	return ret
+	return r
 }

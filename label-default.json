@@ -40,13 +40,18 @@
     "description": "Improvements or additions to documentation"
   },
   {
-    "name": "lang:node",
-    "color": "49fe47",
+    "name": "lang/node",
+    "color": "ad9913",
     "description": "Changes on Node.js solutions"
   },
   {
-    "name": "lang:python",
+    "name": "lang/python",
     "color": "7057ff",
+    "description": "Changes on Python solutions"
+  },
+  {
+    "name": "lang/go",
+    "color": "0075ff",
     "description": "Changes on Python solutions"
   },
   {
