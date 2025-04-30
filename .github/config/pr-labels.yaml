@@ -15,7 +15,11 @@ ci:
 deps:
 - head-branch: ['^renovate/', '^deps/']
 - changed-files:
-  - any-glob-to-any-file: ['node/.node-version', 'python/.python-version']
+  - any-glob-to-any-file:
+    - 'node/.node-version'
+    - 'python/.python-version'
+    - 'go/go.work'
+    - 'go/**/*/go.mod'
 
 docs:
 - changed-files:
@@ -24,9 +28,23 @@ docs:
 features:
 - head-branch: ['^feat']
 
+lang/python:
+- changed-files:
+  - any-glob-to-any-file: ['python/**/*']
+
+lang/go:
+- changed-files:
+  - any-glob-to-any-file: ['go/**/*']
+
+lang/node:
+- changed-files:
+  - any-glob-to-any-file: ['node/**/*']
+
 renovate:
 - head-branch: ['^renovate/']
 
 tests:
 - changed-files:
-  - any-glob-to-any-file: ['tests/**/*']
+  - any-glob-to-any-file:
+    - '**/*/test_*'
+    - '**/*/*_test'
