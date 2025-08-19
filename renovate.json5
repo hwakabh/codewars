@@ -11,5 +11,14 @@
   labels: ["deps", "renovate"],
   timezone: "Asia/Tokyo",
   baseBranches: ["main"],
-  rangeStrategy: "bump"
+  rangeStrategy: "bump",
+  regexManagers: [
+    {
+      fileMatch: ["^go.work$"],
+      matchStrings: ["go (?<currentValue>\\d+\\.\\d+\\.\\d+)"],
+      datasourceTemplate: "github-tags",
+      depNameTemplate: "golang/go",
+      extractVersionTemplate: "^go(?<version>.*)$"
+    },
+  ]
 }
