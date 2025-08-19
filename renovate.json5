@@ -12,9 +12,10 @@
   timezone: "Asia/Tokyo",
   baseBranches: ["main"],
   rangeStrategy: "bump",
-  regexManagers: [
+  customManagers: [
     {
-      fileMatch: ["^go.work$"],
+      customType: "regex",
+      fileMatch: ["^go\/go.work$"],
       matchStrings: ["go (?<currentValue>\\d+\\.\\d+\\.\\d+)"],
       datasourceTemplate: "github-tags",
       depNameTemplate: "golang/go",
