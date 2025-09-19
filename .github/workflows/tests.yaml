@@ -52,7 +52,7 @@ jobs:
       # Run for Go Test
       - name: Setup Go
         if: steps.filter.outputs.go == 'true'
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
 
       - name: Run Go Tests
         if: steps.filter.outputs.go == 'true'
