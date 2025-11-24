@@ -21,5 +21,13 @@
       depNameTemplate: "golang/go",
       extractVersionTemplate: "^go(?<version>.*)$"
     },
+    {
+      customType: "regex",
+      fileMatch: ["^.github\/workflows\/tests.yaml$"],
+      matchStrings: ["go-version (?<currentValue>\\d+\\.\\d+\\.\\d+)"],
+      datasourceTemplate: "github-tags",
+      depNameTemplate: "golang/go",
+      extractVersionTemplate: "^go(?<version>.*)$"
+    },
   ]
 }
