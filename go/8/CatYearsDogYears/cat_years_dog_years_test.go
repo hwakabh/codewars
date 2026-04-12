@@ -8,7 +8,7 @@ func TestCalculateYears(t *testing.T) {
 		got := CalculateYears(1)
 
 		if got != expected {
-			t.Errorf("got: [ %q ], expected: [ %q ] \n", got, expected)
+			t.Errorf("got: [ %d ], expected: [ %d ] \n", got, expected)
 		}
 	})
 
@@ -17,7 +17,7 @@ func TestCalculateYears(t *testing.T) {
 		got := CalculateYears(2)
 
 		if got != expected {
-			t.Errorf("got: [ %q ], expected: [ %q ] \n", got, expected)
+			t.Errorf("got: [ %d ], expected: [ %d ] \n", got, expected)
 		}
 	})
 
@@ -26,7 +26,7 @@ func TestCalculateYears(t *testing.T) {
 		got := CalculateYears(10)
 
 		if got != expected {
-			t.Errorf("got: [ %q ], expected: [ %q ] \n", got, expected)
+			t.Errorf("got: [ %d ], expected: [ %d ] \n", got, expected)
 		}
 	})
 
